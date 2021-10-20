@@ -12,8 +12,17 @@ import javafx.stage.Stage;
 import java.util.ArrayList;
 
 
+/**
+ * The type Line chart sample.
+ */
 public class LineChartSample extends Application {
+    /**
+     * The Recur times list.
+     */
     public static ArrayList<Long> recur_Times_list;
+    /**
+     * The Iter times list.
+     */
     public static ArrayList<Long> iter_Times_list;
 
     /**
@@ -56,6 +65,11 @@ public class LineChartSample extends Application {
     }
 
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
       // Fibonacci newClassObj = new Fibonacci(10);
        //ArrayList<Long> recur_Times = newClassObj.getRecur_times_Fib();
