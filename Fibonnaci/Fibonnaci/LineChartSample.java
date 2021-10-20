@@ -16,7 +16,12 @@ public class LineChartSample extends Application {
     public static ArrayList<Long> recur_Times_list;
     public static ArrayList<Long> iter_Times_list;
 
-
+    /**
+     *This a modified version of a sample on the Oracle JavaFx samples
+     *It receives an arraylist for iterative and recursive
+     *To generate a graph
+     * @param stage
+     */
   public void start(Stage stage) {
 
       stage.setTitle("Line Chart Sample");
@@ -37,16 +42,11 @@ public class LineChartSample extends Application {
             series1.getData().add(new XYChart.Data(i, iter_Times_list.get(i)));
         }
 
-
-
-
         XYChart.Series series2 = new XYChart.Series();
         series2.setName("Recursive Times");
       for (int i=0; i< recur_Times_list.size();i++) {
           series2.getData().add(new XYChart.Data(i, recur_Times_list.get(i)));
       }
-
-
 
         Scene scene  = new Scene(lineChart,800,600);
         lineChart.getData().addAll(series1, series2);
