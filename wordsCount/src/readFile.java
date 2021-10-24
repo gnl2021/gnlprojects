@@ -1,3 +1,4 @@
+package wordsCount;
 import javafx.util.Pair;
 
 import java.io.*;
@@ -10,6 +11,7 @@ import java.util.regex.Pattern;
 
 
 public class readFile {
+    public boolean fileFound;
     public String getOrigTEXT() {
         return origTEXT;
     }
@@ -206,6 +208,10 @@ public class readFile {
     }
 
     public readFile(Path file) throws IOException {
+        boolean fileFound= false;
+        this.fileFound=fileFound;
+
+
         try {
             BufferedReader br = new BufferedReader(new FileReader(file.toFile()));
 
@@ -215,12 +221,13 @@ public class readFile {
                 myText.append(line).append("\n");
             }
             setOrigTEXT(myText.toString());
+            fileFound=true;
             br.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
-            System.out.println("Exiting the program");
-            System.exit(0);//terminating the program if the file is not found.
+            //System.out.println("Exiting the program");
+           // System.exit(0);//terminating the program if the file is not found.
         }
-
+        this.fileFound=fileFound;
     }
 }
