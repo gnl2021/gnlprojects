@@ -79,7 +79,6 @@ public class readFile {
             System.out.println("::::::::::::::::::::::::::::::::");
 
             Scanner data = new Scanner(System.in);
-            Scanner myPath = new Scanner(System.in);
 
             choice = data.nextLine().toLowerCase();
 
@@ -105,7 +104,7 @@ public class readFile {
                     System.out.println("Please enter a valid input");
                     break;
             }
-        }while (choice != "q");
+        }while (!choice.equals("q"));
     }
 
 
@@ -122,7 +121,7 @@ public class readFile {
             // reading from the urlconnection using the bufferedreader
             while ((line = bufferedReader.readLine()) != null) {
                 if (!line.isEmpty()) {
-                    contents.append(line + "\n");
+                    contents.append(line).append("\n");
                 }
             }
             bufferedReader.close();
@@ -136,22 +135,21 @@ public class readFile {
     }
 
 
-    public String cleanFile() {// function to remove the html tags
+    public void cleanFile() {// function to remove the html tags
         String temp = getOrigTEXT();
         String cleanOne = temp.replaceAll("\\<.*?\\>", "");// remove html tags
         String cleanTwo = cleanOne.replaceAll("(?m)^[ \t]*\r?\n", "");// remove empty lines
         String mycleanText2 = cleanTwo.replaceAll(Pattern.quote("&mdash"), "—");
         String mycleanText3 = mycleanText2.replaceAll("\\s{2,}", "\n");// remove extra blank spaces
         setMyCleanText(mycleanText3);
-        return mycleanText3;
     }
 
-    public String mySubstring(String startIndex, String endIndex) {// staring index as a string, ending index has a string
+    public void mySubstring(String startIndex, String endIndex) {// staring index as a string, ending index has a string
         String tempText = getMyCleanText();// create a string from the string to check;
         int pos = tempText.lastIndexOf(startIndex);// determine the start position
         int pos2 = tempText.indexOf(endIndex);// determine the end position
         String subText = tempText.substring(pos, pos2);
-        return this.myCleanText = subText;
+        this.myCleanText = subText;
     }
 
     public void splittedWords() {
@@ -162,7 +160,7 @@ public class readFile {
 
         for (String Word : mysplittedWords) {
             String tempWord = Word.trim();
-            Word = tempWord;
+            Word= tempWord;
         }
         this.myWords = mysplittedWords;
         //populate the map with the string and their value counts
@@ -208,8 +206,7 @@ public class readFile {
     }
 
     public readFile(Path file) throws IOException {
-        boolean fileFound= false;
-        this.fileFound=fileFound;
+        boolean fileFound;
 
 
         try {
@@ -222,12 +219,13 @@ public class readFile {
             }
             setOrigTEXT(myText.toString());
             fileFound=true;
+            this.fileFound=fileFound;
+
             br.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
             //System.out.println("Exiting the program");
            // System.exit(0);//terminating the program if the file is not found.
         }
-        this.fileFound=fileFound;
     }
 }

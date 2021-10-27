@@ -45,16 +45,19 @@ Boolean fileFound;
                         My_FileTEXT.cleanFile();
                         System.out.println("Do you want to limit your text{y/n)");
                         String choice2 = data.nextLine().toLowerCase();
+                        String title;
+                        String endText;
                         switch (choice2) {
                             case "y":
                                 System.out.println("Enter the title");
-                                String title = data.nextLine();
+                                title = data.nextLine();
                                 System.out.println("Enter the end");
-                                String endText = data.nextLine();
+                                endText = data.nextLine();
                                 My_FileTEXT.mySubstring(title, endText);
+
                                 break;
                             case "n":
-                                break;
+
                             default:
                                 break;
                         }
