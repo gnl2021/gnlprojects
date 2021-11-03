@@ -40,21 +40,18 @@ Boolean fileFound;
                     System.out.println("Enter the file path");
                     String myfile = myPath.next();
                     readFile My_FileTEXT = new readFile(Paths.get(myfile));
-                    fileFound=My_FileTEXT.fileFound;
-                    if (fileFound) {
-                        My_FileTEXT.cleanFile();
-                        System.out.println("Do you want to limit your text{y/n)");
-                        String choice2 = data.nextLine().toLowerCase();
-                        String title;
-                        String endText;
-                        switch (choice2) {
+                    My_FileTEXT.cleanFile();
+                    System.out.println("Do you want to limit your text{y/n)");
+                    String choice2 = data.nextLine().toLowerCase();
+                    String title;
+                    String endText;
+                    switch (choice2) {
                             case "y":
                                 System.out.println("Enter the title");
                                 title = data.nextLine();
                                 System.out.println("Enter the end");
                                 endText = data.nextLine();
                                 My_FileTEXT.mySubstring(title, endText);
-
                                 break;
                             case "n":
 
@@ -63,7 +60,7 @@ Boolean fileFound;
                         }
                         My_FileTEXT.splittedWords();
                         My_FileTEXT.printStats();
-                    }
+
                     break;
                 case "d":
                     readFile myDemo = new readFile(MY_URL_FILE);
@@ -81,6 +78,6 @@ Boolean fileFound;
 
 
             }
-        } while (choice != "q");
+        } while (!choice.equals("q"));
     }
 }

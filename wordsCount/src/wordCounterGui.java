@@ -18,6 +18,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.nio.file.Paths;
+
+import static java.lang.System.out;
+
 /**
  * The program use javafx libraries to display a basic gun
  * which accept a input from a Url or local file
@@ -68,40 +71,18 @@ public class wordCounterGui extends Application {
         VBox layout = new VBox();
         Button btnDemo = new Button();
         btnDemo.setText("Demo");
-        btnDemo.setOnAction(new EventHandler<>() {
-            @Override
-            public void handle(ActionEvent event) {
-                showDemo();
-            }
-        });
-
-
+        btnDemo.setOnAction(event -> showDemo());
         input = new TextField();
-
         Button btnUrl = new Button();
         btnUrl.setText("Open Url");
-        btnUrl.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                showUrl();
-            }
-        });
-
+        btnUrl.setOnAction(event -> showUrl());
         Button btnFile = new Button();
         btnFile.setText("Open File");
-        btnFile.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                showFile();
-
-            }
-        });
+            btnFile.setOnAction(event -> showFile());
         myTextLimit.setOnAction(new EventHandler<ActionEvent>() {
-
             @Override
             public void handle(ActionEvent event) {
                 // Assume success always!
-
                 textLimit();
             }
         });
@@ -135,10 +116,8 @@ public class wordCounterGui extends Application {
 
         Label Demo_L = new Label("Demo");
         readFile demo = new readFile(MY_URL_FILE);
-        if (demo != null){
             isDemo=true;
             status= new Label("Demo file");
-        }
         getfileData(demo);
 
         buttonD1.setOnAction(new EventHandler<ActionEvent>() {
@@ -151,7 +130,6 @@ public class wordCounterGui extends Application {
             }
         });
         buttonD20.setOnAction(new EventHandler<ActionEvent>() {
-
             @Override
             public void handle(ActionEvent event) {
                 printData.setText(top20);
@@ -167,7 +145,7 @@ public class wordCounterGui extends Application {
     }
 
     /**
-     * request an url ibput to display the results
+     * request an url input to display the results
      */
     public void showUrl() {
         Stage stage = new Stage();
@@ -182,10 +160,8 @@ public class wordCounterGui extends Application {
 
         Label Url_L = new Label("My Url File");
         readFile myUrl = new readFile(input.getText());
-        if (myUrl != null){
             isDemo=false;
             status= new Label("Url file");
-        }
         getfileData(myUrl);
         buttonD1.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -202,7 +178,6 @@ public class wordCounterGui extends Application {
             public void handle(ActionEvent event) {
                 printData.setText(top20);
                 printLabel.setText("Top Twenty Words");
-
                 printData();
             }
         });
@@ -231,16 +206,21 @@ public class wordCounterGui extends Application {
         readFile myFile = null;
         try {
             myFile = new readFile(Paths.get(input.getText()));
+            myFile.fileFound=true;
         } catch (IOException e) {
-            System.out.println("File not Found");
+            out.println("File not Found");
         } finally {
-            System.out.println(myFile.fileFound);
-            if (myFile != null) {
+            if (myFile==null){
+                out.println("null object");
+            }
+        else if (myFile!=null){
+
+            out.println("my file is"+myFile.fileFound);
+
                 myFile.fileFound=true;
                 isDemo=false;
                 status= new Label("Local file opened");
-                getfileData(myFile);
-            }
+                getfileData(myFile);}
 
 
         }
@@ -363,6 +343,7 @@ public class wordCounterGui extends Application {
      * method to sort the data
      */
     public void getfileData(readFile r) {
+        assert r!= null;
 
                 r.cleanFile();
                 if (isDemo){
@@ -373,15 +354,14 @@ public class wordCounterGui extends Application {
                     if (mytextStart != null) {
                         r.mySubstring(mytextStart, mytextEnd);
                     }
+                    if (!textlimit) {
+                        if (mytextStart == null) {
+
+                        }
+                    }
                 }
-        if (!textlimit) {
-            if (mytextStart != null) {
 
-            }
-        }
         r.splittedWords();
-
-
 
                 StringBuilder contents = new StringBuilder();
                 StringBuilder contentsTwo = new StringBuilder();
@@ -389,18 +369,18 @@ public class wordCounterGui extends Application {
                 for (Pair<String, Integer> p : r.getWordsCount()) {
                     StringWriter writer = new StringWriter();
                     PrintWriter out = new PrintWriter(writer);
-                    out.printf("%12s _____%2d \n", p.getKey(), p.getValue());
+                   out.printf("%12s _____%2d \n", p.getKey(), p.getValue());
                     String output = writer.toString();
                     contents.append(output).toString();
                 }
                 allwords = contents.toString();
 
-                for (Pair<String, Integer> p : r.getTop20Words()) {
-                    StringWriter writer = new StringWriter();
-                    PrintWriter out = new PrintWriter(writer);
-                    out.printf("%12s _____%2d \n", p.getKey(), p.getValue());
-                    String output = writer.toString();
-                    contentsTwo.append(output).toString();
+               for (Pair<String, Integer> p : r.getTop20Words()) {
+                    StringWriter writer2 = new StringWriter();
+                    PrintWriter out2 = new PrintWriter(writer2);
+                    out2.printf("%12s _____%2d \n", p.getKey(), p.getValue());
+                    String output2 = writer2.toString();
+                    contentsTwo.append(output2).toString();
                 }
                 top20 = contentsTwo.toString();
 

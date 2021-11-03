@@ -1,7 +1,9 @@
-package wordsCount;
 import javafx.util.Pair;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.file.Path;
@@ -84,47 +86,47 @@ public class readFile {
 
     public void printStats() {
         String choice;
-          if (this.top20Words.size()==0){
+        if (this.top20Words.size()==0){
             System.out.println("Empty file");
             System.exit(1);
         }
-            else
-        do {
-            System.out.println("::::::::::::::::::::::::::::::::");
-            System.out.println("Word Counters");
-            System.out.println("::::::::::::::::::::::::::::::::");
-            System.out.println("All words count descending list (a)");
-            System.out.println("Top 20 words (b)");
-            System.out.println("Quit the program (q)");
-            System.out.println("::::::::::::::::::::::::::::::::");
+        else
+            do {
+                System.out.println("::::::::::::::::::::::::::::::::");
+                System.out.println("Word Counters");
+                System.out.println("::::::::::::::::::::::::::::::::");
+                System.out.println("All words count descending list (a)");
+                System.out.println("Top 20 words (b)");
+                System.out.println("Quit the program (q)");
+                System.out.println("::::::::::::::::::::::::::::::::");
 
-            Scanner data = new Scanner(System.in);
+                Scanner data = new Scanner(System.in);
 
-            choice = data.nextLine().toLowerCase();
+                choice = data.nextLine().toLowerCase();
 
-            switch (choice) {
-                case "a":
-                    System.out.println("All the words and their counts");
-                    for (Pair<String, Integer> p :this.wordsCount ) {
-                        System.out.printf("%12s _____%2d \n", p.getKey(), p.getValue());
-                    }
-                    break;
-                case "b":
-                    System.out.println("The top twenty words are");
+                switch (choice) {
+                    case "a":
+                        System.out.println("All the words and their counts");
+                        for (Pair<String, Integer> p :this.wordsCount ) {
+                            System.out.printf("%12s _____%2d \n", p.getKey(), p.getValue());
+                        }
+                        break;
+                    case "b":
+                        System.out.println("The top twenty words are");
 
-                    for (Pair<String, Integer> p : this.top20Words) {
-                        System.out.printf("%12s _____%2d \n", p.getKey(), p.getValue());
-                    }
-                    break;
-                case "q":
-                    System.out.println("Goodbye...");
-                    System.exit(0);
-                    break;
-                default:
-                    System.out.println("Please enter a valid input");
-                    break;
-            }
-        }while (true);
+                        for (Pair<String, Integer> p : this.top20Words) {
+                            System.out.printf("%12s _____%2d \n", p.getKey(), p.getValue());
+                        }
+                        break;
+                    case "q":
+                        System.out.println("Goodbye...");
+                        System.exit(0);
+                        break;
+                    default:
+                        System.out.println("Please enter a valid input");
+                        break;
+                }
+            }while (true);
     }
 
 
@@ -195,7 +197,7 @@ public class readFile {
                 }
             }
         }
-  //Create an Array List of pairs from the map
+        //Create an Array List of pairs from the map
         ArrayList<Pair<String, Integer>> wordCounts = new ArrayList<>(wordsMap.size());
         for (Map.Entry<String, Integer> entry : wordsMap.entrySet()) {
             //add the values from the map
@@ -210,7 +212,7 @@ public class readFile {
     }
 
     public readFile(Path file) throws IOException {
-           StringBuilder contents = new StringBuilder();
+        StringBuilder contents = new StringBuilder();
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(file.toFile()));
@@ -226,11 +228,11 @@ public class readFile {
         } catch (Exception e) {
             System.out.println("File not found");
             System.out.println("Exiting the program");
-           System.exit(0);//terminating the program if the file is not found.
+            System.exit(0);//terminating the program if the file is not found.
         }
-            setOrigTEXT(contents.toString());
+        setOrigTEXT(contents.toString());
 
-        }
+    }
 
 
 }
