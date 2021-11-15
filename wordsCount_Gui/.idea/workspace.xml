@@ -2,102 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db31e4cd-1ba4-4a5d-91f5-cf3c6dee6f2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Fibonnaci/Fibonnaci.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fibonnaci/out/production/Fibonnaci/Fibonnaci.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TEXTTEST/TEXTTEST.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/src/test/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/src/test/java/readFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/target/test-classes/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordCounterTest/target/test-classes/CalculatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chartfx/chartfx.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cop2805/.idea/cop2805.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/demo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/target/classes/com/example/demo1/HelloApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/target/classes/com/example/demo1/HelloController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/target/classes/com/example/demo1/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/target/classes/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../textAnalyser/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordcountGui/wordcountGui.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/apiguardian-api-1.1.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/guava-19.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/guice-4.1.0-no_aop.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/jcommander-1.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-4.13.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-5.7.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-api-5.7.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-api-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-engine-5.7.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-engine-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-params-5.7.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-jupiter-params-5.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-platform-commons-1.7.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-platform-commons-1.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-platform-engine-1.7.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/junit-platform-engine-1.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/opentest4j-1.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/snakeyaml-1.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/lib/testng-7.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/msword2013sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordsCount/wordsCount.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordsCount_Gui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordsCount/src/menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordsCount/src/menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordsCount/src/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordsCount/src/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordsCount/src/readFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordsCount/src/wordCounterGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordsCount/src/wordCounterGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SumThread/SumThread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/demo3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/target/classes/com/example/demo3/HelloApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/target/classes/com/example/demo3/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/target/classes/com/example/demo3/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/StackPaneExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/class-use/StackPaneExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/class-use/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/class-use/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/class-use/mytest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/class-use/readFile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/class-use/wordCounter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/class-use/wordCounterGui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/mytest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/readFile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/wordCounter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordsCount/doc-files/wordsCount/wordCounterGui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordsCount/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordsCount/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordsCount/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordsCount/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordsCount/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordsCount/src/StackPaneExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordsCount/src/mytest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordsCount/src/readFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordsCount/src/readFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordsCount/wordsCount.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordsCount/wordsCount.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +100,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -142,6 +121,8 @@
       <workItem from="1635886351601" duration="317000" />
       <workItem from="1635886691633" duration="476000" />
       <workItem from="1635887199765" duration="632000" />
+      <workItem from="1636668453125" duration="41000" />
+      <workItem from="1636768407905" duration="84000" />
     </task>
     <servers />
   </component>
