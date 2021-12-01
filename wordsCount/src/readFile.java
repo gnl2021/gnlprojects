@@ -9,28 +9,44 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 
+
 /**
- * The type Read file.
+ * <pre>
+ * The readFile class.
+ * The premise of the program is to load a file, in the requested case an html file from an url,
+ * skip the html tags, then identify the word in the file.
+ * Next step is to have some functions that help create a list of the words
+ * and have this list sorted by descending count values. Finally to print the 20 most encountered words.
+ * The output is requested to be sorted in pairs.
+ * </pre>
+ * @author Gregory Lauture
+ * @version 1.0
+ * @since 2021 -10-27
  */
 public class readFile {
     /**
-     * The File found.
+     * <pre>
+     * The boolean checker will help decide if the the program has to run or not.
+     * It depends if a file object has been successfully created.
+     * </pre>
      */
     public boolean fileFound;
 
     /**
-     * Gets orig text.
-     *
-     * @return the orig text
+     * <pre>
+     * Getter method to return the text read from the file.
+     * </pre>
+     * @return origTEXT
      */
     public String getOrigTEXT() {
         return origTEXT;
     }
 
     /**
-     * Sets orig text.
-     *
-     * @param origTEXT the orig text
+     * <pre>
+     * Setter method for origina; text.
+     * </pre>
+     * @param origTEXT
      */
     public void setOrigTEXT(String origTEXT) {
         this.origTEXT = origTEXT;
@@ -39,18 +55,20 @@ public class readFile {
     private String origTEXT;
 
     /**
-     * Gets my clean text.
-     *
-     * @return the my clean text
+     * <pre>
+     * Getter for the text cleaned from html tags and multiple blank spaces.
+     * </pre>
+     * @return myCleanText
      */
     public String getMyCleanText() {
         return myCleanText;
     }
 
     /**
-     * Sets my clean text.
-     *
-     * @param myCleanText the my clean text
+     * <pre>
+     * Setter for the cleaned text.
+     * </pre>
+     * @param myCleanText
      */
     public void setMyCleanText(String myCleanText) {
         this.myCleanText = myCleanText;
@@ -59,18 +77,20 @@ public class readFile {
     private String myCleanText;
 
     /**
-     * Get my words string [ ].
-     *
-     * @return the string [ ]
+     * <pre>
+     * Getter for the array of words found.
+     * </pre>
+     * @return myWords
      */
     public String[] getMyWords() {
         return myWords;
     }
 
     /**
-     * Sets my words.
-     *
-     * @param myWords the my words
+     *<pre>
+     * Setter for the array of words found.
+     * </pre>
+     * @param myWords
      */
     public void setMyWords(String[] myWords) {
         this.myWords = myWords;
@@ -80,18 +100,20 @@ public class readFile {
     private ArrayList<Pair<String, Integer>> top20Words;
 
     /**
-     * Gets words count.
-     *
-     * @return the words count
+     * <pre>
+     * Getter for the array of words found including the count.
+     * </pre>
+     * @return wordsCount
      */
     public ArrayList<Pair<String, Integer>> getWordsCount() {
         return wordsCount;
     }
 
     /**
-     * Sets words count.
-     *
-     * @param wordsCount the words count
+     * <pre>
+     * Setter for the array of words found including the count.
+     * </pre>
+     * @param wordsCount
      */
     public void setWordsCount(ArrayList<Pair<String, Integer>> wordsCount) {
         this.wordsCount = wordsCount;
@@ -101,8 +123,9 @@ public class readFile {
 
 
     /**
-     * Gets top 20 words.
-     *
+     * <pre>
+     * Getter for the array of the top 20 words found including the count.
+     * </pre>
      * @return the top 20 words
      */
     public ArrayList<Pair<String, Integer>> getTop20Words() {
@@ -110,9 +133,12 @@ public class readFile {
     }
 
     /**
-     * Sets top 20 words.
-     *
-     * @param top20Words the top 20 words
+     * <pre>
+     * Setter for the array of the top 20 words found including the count.
+     * It takes the top 20 entry list from the complete sorted array list of pair
+     * including possible word with a tie count..
+     * </pre>
+     * @param top20Words
      */
     public void setTop20Words(ArrayList<Pair<String, Integer>> top20Words) {
         // get an array list with the top 20 words
@@ -139,7 +165,11 @@ public class readFile {
     }
 
     /**
-     * Print stats.
+     * <pre>
+     * Basic console menu that print the top 20 words or all the words with their count.
+     * Base on the user choice
+     * It will check for validity and possibly exit in case of empty array.
+     *</pre>
      */
     public void printStats() {
         String choice;
@@ -188,9 +218,12 @@ public class readFile {
 
 
     /**
-     * Instantiates a new Read file.
-     *
-     * @param theUrl the the url
+     * <pre>
+     *  The method will create a new file object based on a valid Url input.
+     *  It will save the contents of the file on a string object.
+     *  The program will quit in case of invalid Url.
+     *  </pre>
+     * @param theUrl
      */
     public readFile(String theUrl) {
         StringBuilder contents = new StringBuilder();
@@ -221,7 +254,12 @@ public class readFile {
 
 
     /**
-     * Clean file.
+     * <pre>
+     *  The method use the string object containing the retrieved text.
+     *  It then performs operations to get rid of the html tags,
+     *  and the multiple empty spaces,
+     *  The result is saved in a new string myCleanText.
+     *  </pre>
      */
     public void cleanFile() {// function to remove the html tags
         String temp = getOrigTEXT();
@@ -233,10 +271,13 @@ public class readFile {
     }
 
     /**
-     * My substring.
-     *
-     * @param startIndex the start index
-     * @param endIndex   the end index
+     * <pre>
+     *  The method use the cleaned text string.
+     *  It then use an user text delimitation,
+     *  then update the result for cleaned text.
+     *  </pre>
+     * @param startIndex
+     * @param endIndex
      */
     public void mySubstring(String startIndex, String endIndex) {// staring index as a string, ending index has a string
         String tempText = getMyCleanText();// create a string from the string to check;
@@ -246,7 +287,13 @@ public class readFile {
     }
 
     /**
-     * Splitted words.
+     * <pre>
+     *  The method will use the clean text.
+     *  It then use map to get all unique words in the text and their count.
+     *  The result is saved in arraylist of pair.
+     *  Which is then sorted by descending count and saved in a pair arraylist.
+     *  The list is used to populate the words found and their count, and the top 20.
+     *  </pre>
      */
     public void splittedWords() {
         String tempWords = getMyCleanText().toLowerCase();//all words to lowercase to minimise duplicates
@@ -286,10 +333,13 @@ public class readFile {
     }
 
     /**
-     * Instantiates a new Read file.
-     *
-     * @param file the file
-     * @throws IOException the io exception
+     * <pre>
+     *  The method will create a new file object based on a local file input.
+     *  It will save the contents of the file on a string object.
+     *  The program will quit in case of invalid file path.
+     *  </pre>
+     * @param file
+     * @throws IOException
      */
     public readFile(Path file) throws IOException {
            StringBuilder contents = new StringBuilder();

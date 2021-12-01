@@ -5,19 +5,18 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 /**
- * The type Menu.
+ * A simple java console menu to use for the program.
+ @author Gregory Lauture
+ * @version 1.0
+ * @since 2021 -10-27
  */
 public class menu {
     private static final String MY_URL_FILE = "https://www.gutenberg.org/files/1065/1065-h/1065-h.htm";
-    /**
-     * The File found.
-     */
-    Boolean fileFound;
+
 
     /**
-     * Menu.
-     *
-     * @throws IOException the io exception
+     * The method will require to chose between a demo mode and others.
+     * @throws IOException may quit the program if the file to use is not found
      */
     public void menu() throws IOException {
         String choice;
