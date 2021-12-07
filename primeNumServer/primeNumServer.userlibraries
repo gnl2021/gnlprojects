@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="mysql-connector-java-8.0.27">
+    <archive path="/Users/impdmacbook/Downloads/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar" />
+  </library>
+  <library name="lib">
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-18/lib/javafx.graphics.jar" />
+  </library>
+  <library name="javafx">
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar" />
+    <archive path="/Users/impdmacbook/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar" />
+  </library>
+</eclipse-userlibraries>
+
